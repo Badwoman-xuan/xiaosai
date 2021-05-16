@@ -1,24 +1,2 @@
-<page class="index">
-
-
-  <view class="orderlist">
-      <navigator url="/pages/orderinfo/orderinfo" class="myorder" hover-class="myorder">
-        <view class="orderinfobox">      
-        </view> 
-        <view class="orderinfoitem">订单1</view>  
-      </navigator>
-
-      <navigator url="/pages/orderinfo/orderinfo" class="myorder" hover-class="myorder">
-        <view class="orderinfobox">      
-        </view> 
-        <view class="orderinfoitem">订单2</view>  
-      </navigator>
-  </view>
-
-<navigator url="/pages/addorder/addorder">
-    <view class="add" bindtap="add">
-    <image src="/images/adddy.png"></image>
-    </view>
-</navigator>
-
-</page>
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
