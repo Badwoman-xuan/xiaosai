@@ -1,0 +1,10 @@
+<!--干脆不要信誉值界面了，在my/index直接展示-->
+<view class="bg">
+  <view class="head">
+    <view class="headIcon">
+      55
+    </view>
+   
+  </view>
+  
+</view>

@@ -1,1 +1,27 @@
-/* pages/index/index.wxss */
+/**index.wxss**/
+.orderinfoitem{
+  width: 400px;
+  height: 100px;
+  background-color: #aaa;
+  color: burlywood;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.add{position: fixed;bottom: 30px;right:30px;}
+.add image{width: 80rpx;height: 80rpx;}

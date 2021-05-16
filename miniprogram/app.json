@@ -1,14 +1,44 @@
 {
   "pages": [
-    "pages/index/index"
+   
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/orderpage/orderpage",
+    "pages/ordeinfo/orderinfo",
+    "pages/ordeinfo/takeordersuccess",
+    "pages/chat/chat",
+    "pages/my/index",
+    "pages/my/myorder",
+    "pages/my/credit",
+    "pages/addorder/addorder",
+    "pages/addorder/addordersuccess"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "selectedColor": "daa520",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/orderpage/orderpage",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

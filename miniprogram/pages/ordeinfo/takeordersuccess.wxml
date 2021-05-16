@@ -1,0 +1,17 @@
+<!--pages/ordeinfo/takeordersuccess.wxml-->
+
+<view class="head">
+
+</view>
+
+<view class="content">
+  <!--实现三秒后自动跳转函数-->
+   <view class="successLogo" >
+      <image src="/images/success.jpg"></image>
+   </view>
+   <view class="successText" >
+     <text>接单成功</text>
+   </view>
+</view>
+
+
