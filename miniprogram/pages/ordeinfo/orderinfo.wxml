@@ -1,0 +1,82 @@
+<!--pages/ordeinfo/orderinfo.wxml-->
+
+<view class="page">
+    
+   
+    <view class="header">
+    </view>
+    <view class="content">
+        <form bindsubmit="formSubmit" bindreset="formReset">
+            <view class="item">
+                <view class="title">发单人</view>
+                <view class="detail">
+                    <text>{{order_inPerson_ID}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">跑腿类型</view>
+                <view class="detail">
+                    <text>{{order_type}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">发单时间</view>
+                <view class="detail">
+                    <text>{{order_beginTime}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">截止时间</view>
+                <view class="detail">
+                    <text>{{order_endTime}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">跑腿地点</view>
+                <view class="detail">
+                    <text>{{order_takePlace}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">目的地</view>
+                <view class="detail">
+                    <text>{{order_deliverPlace}}xxxxxx</text>
+                </view>
+            </view>
+            <view class="item">
+                <view class="title">赏金</view>
+                <view class="detail">
+                    <text>{{order_price}}xxxxxx</text>
+                </view>
+            </view>
+           
+           
+            <view class="hr"></view>
+            <view class="hr"></view>
+
+            <view class="btn-area">
+                <view class="button-wrapper">
+                    <view class="chatButton">
+                        <navigator url="/pages/chat/chat">
+                        <button >联系TA</button>
+                         </navigator>
+                    </view>
+
+                    <view class="takeorderButton">
+                        <button bindtap="showPopup" >我要接单,弹窗实现</button>
+                        <popup id='popup' title='确认' content='确认接单吗？' btn_no='取消' byn_ok='确认' 
+                          bind:error='_error' bind:success='_success'>
+                        </popup>
+                    </view>
+                    
+                    
+                   
+                    
+                </view>
+            </view>
+        </form>
+    </view>
+    
+
+</view>
+

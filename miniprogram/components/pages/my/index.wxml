@@ -1,0 +1,61 @@
+<!--pages/my/index.wxml-->
+<view class="bg">
+  <view class="head">
+    <view class="headIcon">
+      <image src='../../images/pic_icon.JPG' style="width:70px;height:70px;"></image>
+    </view>
+    <view class="login" >
+      用户名{{user_name}}
+    </view>
+  </view>
+  
+</view>
+<view class="hr"></view>
+
+<view class='item'>
+  <view class="title">学号</view>
+  <view class="detail2">
+    <text>{{user_stdnum}}2020111113</text>
+  </view>
+  
+</view>
+<view class="line"></view>
+
+<view class='item'>
+  <view class="title" >我的地址</view>
+  <view class="detail2">
+    <text>{{fromaddress}}星天苑</text>
+  </view>
+
+  
+</view>
+
+<view class="hr"></view>
+
+
+
+<view class='item'>
+  <view class="title">信誉值</view>
+  <view class="detail2">
+    <text>55{{credit}}</text>
+  </view>
+</view>
+<view class="line"></view>
+<navigator url="/pages/my/myorder" class="myorder" hover-class="myorder">
+    <view class="myorderbox"> 
+        <view class="title">我的订单</view>
+       
+
+    
+  </view>
+  </navigator>
+
+  
+
+
+
+
+
+
+
+

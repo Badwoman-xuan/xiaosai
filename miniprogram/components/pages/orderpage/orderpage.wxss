@@ -1,0 +1,36 @@
+/* pages/my/myorder.wxss */
+@import '../../comm/style/tab.wxss';
+@import '../../component/nullTip/nullTip.wxss';
+.orderinfoitem{
+  width: 400px;
+  height: 100px;
+  background-color: #aaa;
+  color: burlywood;
+}
+ 
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #777;
+}
+ 
+.tab-item {
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+}
+ 
+.swiper {
+  height: 1100px;
+  background: #ffffff;
+}
+ 
+.on {
+  color: #daa520;
+  border-bottom: 5rpx solid #daa520;
+}
+
+.add{position: fixed;bottom: 30px;right:30px;}
+.add image{width: 80rpx;height: 80rpx;}
